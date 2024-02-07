@@ -44,19 +44,19 @@
 
         raise_layer {
             bindings = <
-&none  &none      &none        &none     &none       &none          &kp LA(A)      &kp LA(H)      &kp LA(D)      &kp LA(W)       &kp LA(V)       &kp LA(S)
-&none  &kp CARET  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp AMPERSAND  &kp LA(LC(L))  &kp LA(LC(T))  &kp LA(LC(R))  &kp LA(LC(G))   &kp UP_ARROW    &none
-&none  &none      &none        &none     &none       &none          &none          &none          &none          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&none  &kp F14    &kp F15      &kp F16   &kp F17     &kp F18        &kp LA(A)      &kp LA(H)      &kp LA(D)      &kp LA(W)       &kp LA(V)       &kp LA(S)
+&none  &kp CARET  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp AMPERSAND  &kp LA(LC(L))  &kp LA(LC(T))  &kp LA(LC(R))  &kp LA(LC(G))   &kp UP_ARROW    &kp LS(A)
+&none  &none      &none        &none     &none       &none          &kp LC(LA(V))  &kp LC(LA(H))  &none          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
                                &trans    &trans      &trans         &trans         &trans         &trans
             >;
         };
 
         adjust_layer {
             bindings = <
-&bootloader  &none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &bootloader
-&bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
-&sys_reset   &none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &sys_reset
-                                         &trans        &none         &trans        &none         &trans        &trans
+&bootloader  &none           &none         &none         &none         &none         &none         &none         &none         &none         &none           &bootloader
+&bt BT_CLR   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0    &bt BT_CLR
+&sys_reset   &bt BT_CLR_ALL  &none         &none         &none         &none         &none         &none         &none         &none         &bt BT_CLR_ALL  &sys_reset
+                                           &trans        &none         &trans        &none         &trans        &trans
             >;
         };
     };
