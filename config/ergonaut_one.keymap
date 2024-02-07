@@ -46,7 +46,7 @@
             bindings = <
 &none  &kp F14    &kp F15      &kp F16   &kp F17     &kp F18        &kp LA(A)      &kp LA(H)      &kp LA(D)      &kp LA(W)       &kp LA(V)       &kp LA(S)
 &none  &kp CARET  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp AMPERSAND  &kp LA(LC(L))  &kp LA(LC(T))  &kp LA(LC(R))  &kp LA(LC(G))   &kp UP_ARROW    &kp LS(A)
-&none  &none      &none        &none     &none       &none          &kp LC(LA(V))  &kp LC(LA(H))  &none          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&none  &none      &none        &none     &none       &none          &kp LG(LA(V))  &kp LA(LG(H))  &none          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
                                &trans    &trans      &trans         &trans         &trans         &trans
             >;
         };
